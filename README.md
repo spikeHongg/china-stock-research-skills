@@ -2,6 +2,11 @@
 
 [English](README.en.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/spikeHongg/china-stock-research-skills)](https://github.com/spikeHongg/china-stock-research-skills/releases)
+[![GitHub stars](https://img.shields.io/github/stars/spikeHongg/china-stock-research-skills?style=social)](https://github.com/spikeHongg/china-stock-research-skills)
+[![GitHub forks](https://img.shields.io/github/forks/spikeHongg/china-stock-research-skills?style=social)](https://github.com/spikeHongg/china-stock-research-skills/forks)
+
 把一句模糊的 `分析这只股票`，变成一套结构化、可引用、默认中文输出的中国股票研究工作流。
 
 这是一个面向中国股票研究的开源 agent skills 系统，默认服务于基于公开信息的中文研究流程。它适用于基本面、业务面、风险与估值分析，不适用于实时行情、自动交易或依赖私有数据库的工作流。
@@ -42,9 +47,13 @@
 
 先安装，再从总控母 skill 开始；如果只看三行，这三步就够了。
 
+可直接复制的远程安装命令：
+
 ```bash
-bunx skills add <owner>/<repo>
+bunx skills add spikeHongg/china-stock-research-skills
 ```
+
+上面的占位写法 `bunx skills add <owner>/<repo>` 也是对的，只是对首次访问者不如可复制示例直观。
 
 然后直接使用下面这条提示词：
 
@@ -135,10 +144,7 @@ bunx skills add . --list
 - `skills/shared/references/regulated-healthcare-policy-overlay.md`
 - `skills/shared/references/export-manufacturing-supply-chain-overlay.md`
 
-IDC 仅作为示例 overlay 保留，不是默认框架：
-
-- `skills/shared/references/idc-heavy-asset-transition-overlay.md`
-- `skills/shared/templates/idc-project-ledger.md`
+其他 overlays 与模板可直接查看 `skills/shared/references/` 和 `skills/shared/templates/`。
 
 ## 仓库结构
 

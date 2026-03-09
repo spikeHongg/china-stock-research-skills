@@ -2,6 +2,11 @@
 
 [简体中文](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/spikeHongg/china-stock-research-skills)](https://github.com/spikeHongg/china-stock-research-skills/releases)
+[![GitHub stars](https://img.shields.io/github/stars/spikeHongg/china-stock-research-skills?style=social)](https://github.com/spikeHongg/china-stock-research-skills)
+[![GitHub forks](https://img.shields.io/github/forks/spikeHongg/china-stock-research-skills?style=social)](https://github.com/spikeHongg/china-stock-research-skills/forks)
+
 Turn a vague prompt like `analyze this stock` into a structured, source-backed, Chinese-first workflow for China stock research.
 
 This is an open-source agent skills system for China stock research, designed around public-information workflows and Simplified Chinese outputs by default. It is suitable for fundamentals, business analysis, risk monitoring, and valuation framing, but not for real-time market data, automated trading, or proprietary database workflows.
@@ -42,9 +47,13 @@ This is an open-source agent skills system for China stock research, designed ar
 
 Install the skills, then start with the orchestrator. If you only read three lines, this is enough.
 
+Copy-paste remote install command:
+
 ```bash
-bunx skills add <owner>/<repo>
+bunx skills add spikeHongg/china-stock-research-skills
 ```
+
+The placeholder form `bunx skills add <owner>/<repo>` is also correct, but it is less friendly for first-time visitors than a copy-ready example.
 
 Then use this prompt directly:
 
@@ -135,10 +144,7 @@ Common optional overlays include:
 - `skills/shared/references/regulated-healthcare-policy-overlay.md`
 - `skills/shared/references/export-manufacturing-supply-chain-overlay.md`
 
-IDC is kept as an example overlay, not the default framework:
-
-- `skills/shared/references/idc-heavy-asset-transition-overlay.md`
-- `skills/shared/templates/idc-project-ledger.md`
+Other overlays and templates can be explored directly under `skills/shared/references/` and `skills/shared/templates/`.
 
 ## Repository Layout
 
