@@ -4,7 +4,7 @@
 
 ## 中文
 
-本仓库基于 open skills CLI 使用，推荐使用 `bunx skills add` 进行安装与检查。
+本仓库基于 open skills CLI 使用，面向中国股票、尤其是 A股 / A-share 研究场景，推荐使用 `bunx skills add` 进行安装与检查。
 
 ### 前置条件
 
@@ -56,7 +56,7 @@ bunx skills add .
 建议从总控母 skill 开始：
 
 ```text
-使用 china-stock-research-orchestrator skill 分析这家 A 股公司，识别主要分析模式，选择需要调用的模块，并返回一份带可访问来源链接的研究框架。所有中间与最终输出默认使用中文。
+使用 china-stock-research-orchestrator skill 分析这家中国上市公司，尤其按 A股 / A-share 研究语境识别主要分析模式，选择需要调用的模块，并返回一份带可访问来源链接的研究框架。所有中间与最终输出默认使用中文。
 ```
 
 ### 常见问题
@@ -78,7 +78,7 @@ bunx skills add .
 
 ## English
 
-This repository is designed to work with the open skills CLI. The recommended install path is `bunx skills add`.
+This repository is designed to work with the open skills CLI and is especially natural for China stock and A-share research workflows. The recommended install path is `bunx skills add`.
 
 ### Prerequisites
 
@@ -130,7 +130,7 @@ After installation, you should be able to see these 7 skills:
 Start with the orchestrator:
 
 ```text
-Use the china-stock-research-orchestrator skill to analyze this A-share company, identify the main analysis patterns, choose the required modules, and return a source-backed research framework. Default all intermediate and final outputs to Simplified Chinese.
+Use the china-stock-research-orchestrator skill to analyze this China-listed company, especially in an A-share workflow context, identify the main analysis patterns, choose the required modules, and return a source-backed research framework. Default all intermediate and final outputs to Simplified Chinese.
 ```
 
 ### Common Problems

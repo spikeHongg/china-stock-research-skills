@@ -14,15 +14,18 @@
 
 ### 建议的 GitHub Description
 
-- `面向 A 股股票研究的开源 agent skills，强调工作流编排、证据优先分析与可复用 overlays。`
+- `面向中国股票、尤其是 A股 / A-share 研究的开源 agent skills，强调工作流编排、证据优先分析与可复用 overlays。`
 
 如果你更希望 description 用英文，也可以使用：
 
-- `Open-source agent skills for A-share stock research, with orchestrated workflows, citation-first analysis, and reusable sector overlays.`
+- `Open-source agent skills for China stock and A-share research, with orchestrated workflows, citation-first analysis, and reusable sector overlays.`
 
 ### 建议 Topics
 
 - `a-share`
+- `ashare`
+- `china-stock`
+- `china-a-share`
 - `stock-research`
 - `equity-research`
 - `agent-skills`
@@ -40,7 +43,7 @@
 
 ### 建议 Social Preview 文案
 
-- `面向 A 股结构化研究的开源 skills pack。强调证据优先、模块化设计与 agent 工作流。`
+- `面向中国股票、尤其是 A股结构化研究的开源 skills pack。强调证据优先、模块化设计与 agent 工作流。`
 
 ### 首个版本 Tag
 
@@ -90,7 +93,7 @@
 
 ## 说明
 
-- 本项目面向基于公开信息的 A 股研究工作流
+- 本项目面向基于公开信息的中国股票研究工作流，尤其适合 A股 / A-share 场景
 - 它不是实时行情工具，也不是投资建议系统
 ```
 
@@ -141,11 +144,14 @@ Short, descriptive, and easy to remember.
 
 ### Recommended GitHub Description
 
-- `Open-source agent skills for A-share stock research, with orchestrated workflows, citation-first analysis, and reusable sector overlays.`
+- `Open-source agent skills for China stock and A-share research, with orchestrated workflows, citation-first analysis, and reusable sector overlays.`
 
 ### Recommended Topics
 
 - `a-share`
+- `ashare`
+- `china-stock`
+- `china-a-share`
 - `stock-research`
 - `equity-research`
 - `agent-skills`
@@ -163,7 +169,7 @@ Short, descriptive, and easy to remember.
 
 ### Suggested Social Preview Copy
 
-- `Open-source skills pack for structured A-share stock research. Citation-first, modular, and built for agent workflows.`
+- `Open-source skills pack for structured China stock and A-share research. Citation-first, modular, and built for agent workflows.`
 
 ### First Release Tag
 
@@ -213,7 +219,7 @@ This version is a strong first public release because it already includes:
 
 ## Notes
 
-- This project is designed for public-information A-share research workflows
+- This project is designed for public-information China stock research workflows, especially A-share use cases
 - It is not a real-time market data tool and not investment advice
 ```
 

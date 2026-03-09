@@ -14,25 +14,28 @@
 
 ### 中文版
 
-- `面向 A 股股票研究的开源 agent skills，强调工作流编排、证据优先分析与可复用 overlays。`
+- `面向中国股票、尤其是 A股 / A-share 研究的开源 agent skills，强调工作流编排、证据优先分析与可复用 overlays。`
 
 ### 英文版
 
-- `Open-source agent skills for A-share stock research, with orchestrated workflows, citation-first analysis, and reusable overlays.`
+- `Open-source agent skills for China stock and A-share research, with orchestrated workflows, citation-first analysis, and reusable overlays.`
 
 ## 仓库简介短句
 
 ### 中文版
 
-- `把“分析这只股票”转成结构化、可引用、可复用的 A 股研究工作流。`
+- `把“分析这只股票”转成结构化、可引用、可复用的中国股票 / A股研究工作流。`
 
 ### 英文版
 
-- `Turn “analyze this stock” into a structured, source-backed, reusable A-share research workflow.`
+- `Turn “analyze this stock” into a structured, source-backed, reusable China stock and A-share research workflow.`
 
 ## Topics 建议
 
 - `a-share`
+- `ashare`
+- `china-stock`
+- `china-a-share`
 - `stock-research`
 - `equity-research`
 - `agent-skills`
@@ -47,11 +50,11 @@
 
 ### 中文版
 
-- `面向 A 股结构化研究的开源 skills pack。默认中文输出，强调证据优先、模块化设计与 agent 工作流。`
+- `面向中国股票、尤其是 A股结构化研究的开源 skills pack。默认中文输出，强调证据优先、模块化设计与 agent 工作流。`
 
 ### 英文版
 
-- `Open-source skills pack for structured A-share stock research. Chinese-first outputs, citation-first analysis, and modular agent workflows.`
+- `Open-source skills pack for structured China stock and A-share research. Chinese-first outputs, citation-first analysis, and modular agent workflows.`
 
 ## 首个 Release 信息
 
@@ -68,7 +71,7 @@
 ```md
 ## 亮点
 
-- 新增 `china-stock-research-orchestrator`，用于把一只 A 股公司路由到合适的研究路径
+- 新增 `china-stock-research-orchestrator`，用于把一只中国股票，尤其是 A股公司，路由到合适的研究路径
 - 提供 6 个核心研究模块，覆盖战略、业务质量、财务健康度、竞争格局、风险监测、估值框架
 - 提供统一的来源与引用标准，要求关键事实附可访问来源链接
 - 提供可复用 overlays，覆盖业务转型、订单驱动、重资产爬坡、周期、消费品牌、医药政策、出口制造等常见场景
@@ -96,7 +99,7 @@
 
 ## 说明
 
-- 本项目面向基于公开信息的 A 股研究工作流
+- 本项目面向基于公开信息的中国股票研究工作流，尤其适合 A股 / A-share 场景
 - 它不是实时行情工具，也不是投资建议系统
 ```
 
@@ -105,7 +108,7 @@
 ```md
 ## Highlights
 
-- Add `china-stock-research-orchestrator` to route an A-share company into the right research workflow
+- Add `china-stock-research-orchestrator` to route a China-listed company, especially in A-share workflows, into the right research path
 - Ship 6 core research modules covering strategy, business quality, financial health, competition, monitoring, and valuation
 - Add shared source and citation standards with accessible-link requirements for key facts
 - Add reusable overlays for business-model transition, project-order businesses, asset-heavy ramps, cyclicals, consumer brands, healthcare-policy cases, and export manufacturing
@@ -133,7 +136,7 @@
 
 ## Notes
 
-- This project is designed for public-information A-share research workflows
+- This project is designed for public-information China stock research workflows, especially A-share use cases
 - It is not a real-time market data tool and not investment advice
 ```
 
@@ -185,15 +188,18 @@ This file contains copy-ready assets for the initial GitHub launch.
 
 ## GitHub About Text
 
-- `Open-source agent skills for A-share stock research, with orchestrated workflows, citation-first analysis, and reusable overlays.`
+- `Open-source agent skills for China stock and A-share research, with orchestrated workflows, citation-first analysis, and reusable overlays.`
 
 ## Short Project Blurb
 
-- `Turn “analyze this stock” into a structured, source-backed, reusable A-share research workflow.`
+- `Turn “analyze this stock” into a structured, source-backed, reusable China stock and A-share research workflow.`
 
 ## Suggested Topics
 
 - `a-share`
+- `ashare`
+- `china-stock`
+- `china-a-share`
 - `stock-research`
 - `equity-research`
 - `agent-skills`
@@ -206,7 +212,7 @@ This file contains copy-ready assets for the initial GitHub launch.
 
 ## Social Preview Copy
 
-- `Open-source skills pack for structured A-share stock research. Chinese-first outputs, citation-first analysis, and modular agent workflows.`
+- `Open-source skills pack for structured China stock and A-share research. Chinese-first outputs, citation-first analysis, and modular agent workflows.`
 
 ## First Release
 

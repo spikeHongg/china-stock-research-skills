@@ -4,13 +4,13 @@
 
 ## 中文
 
-本仓库当前包含 7 个 skills。
+本仓库当前包含 7 个 skills，面向中国股票研究，尤其适合 A股 / A-share 的公开信息分析场景。
 
 ### 母 skill
 
 | Skill | 适用场景 | 主要输出 |
 | --- | --- | --- |
-| `china-stock-research-orchestrator` | 识别分析模式、路由模块、选择 overlays、合并结果 | 统一研究框架 |
+| `china-stock-research-orchestrator` | 识别中国股票、尤其是 A股 / A-share 场景下的分析模式，路由模块、选择 overlays、合并结果 | 统一研究框架 |
 
 ### 核心模块
 
@@ -45,13 +45,13 @@
 
 ## English
 
-This repository currently ships 7 skills.
+This repository currently ships 7 skills for China stock research, especially natural for A-share workflows built on public information.
 
 ### Parent Skill
 
 | Skill | Use It For | Main Output |
 | --- | --- | --- |
-| `china-stock-research-orchestrator` | Identify analysis patterns, route modules, choose overlays, and merge outputs | Unified research framework |
+| `china-stock-research-orchestrator` | Identify analysis patterns for China stock and A-share workflows, route modules, choose overlays, and merge outputs | Unified research framework |
 
 ### Core Modules
 
