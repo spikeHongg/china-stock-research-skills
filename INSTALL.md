@@ -13,16 +13,16 @@
 
 ### 从 GitHub 安装
 
-将 `<owner>/<repo>` 替换为 GitHub 仓库路径：
+可直接复制的远程安装命令：
 
 ```bash
-bunx skills add <owner>/<repo>
+bunx skills add spikeHongg/china-stock-research-skills
 ```
 
 如果想先看有哪些 skills：
 
 ```bash
-bunx skills add <owner>/<repo> --list
+bunx skills add spikeHongg/china-stock-research-skills --list
 ```
 
 ### 从本地克隆目录安装
@@ -73,7 +73,7 @@ bunx skills add .
 
 #### 远程安装路径容易写错
 
-- 优先使用最简单形式：`bunx skills add <owner>/<repo>`
+- 优先直接复制：`bunx skills add spikeHongg/china-stock-research-skills`
 - 本地调试时优先使用 `bunx skills add .`，不要先写很长的绝对路径
 
 ## English
@@ -87,16 +87,16 @@ This repository is designed to work with the open skills CLI. The recommended in
 
 ### Install From GitHub
 
-Replace `<owner>/<repo>` with the GitHub repository path:
+Copy-paste remote install command:
 
 ```bash
-bunx skills add <owner>/<repo>
+bunx skills add spikeHongg/china-stock-research-skills
 ```
 
 To inspect available skills before installing:
 
 ```bash
-bunx skills add <owner>/<repo> --list
+bunx skills add spikeHongg/china-stock-research-skills --list
 ```
 
 ### Install From a Local Clone
@@ -147,5 +147,5 @@ Use the china-stock-research-orchestrator skill to analyze this A-share company,
 
 #### Remote install path confusion
 
-- Use the simplest form first: `bunx skills add <owner>/<repo>`
+- Use the copy-ready command first: `bunx skills add spikeHongg/china-stock-research-skills`
 - If you are testing locally, use `bunx skills add .` instead of a long absolute path

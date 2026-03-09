@@ -61,6 +61,12 @@ git push origin v0.1.0
 ```bash
 mkdir -p /tmp/a-share-skills-test && cd /tmp/a-share-skills-test
 bunx skills add <owner>/<repo> --list
+
+发布当前仓库时，对应命令是：
+
+```bash
+bunx skills add spikeHongg/china-stock-research-skills --list
+```
 ```
 
 确认能看到全部 7 个 skills。
@@ -136,6 +142,12 @@ In a fresh directory, test remote install:
 ```bash
 mkdir -p /tmp/a-share-skills-test && cd /tmp/a-share-skills-test
 bunx skills add <owner>/<repo> --list
+
+For this repository, the concrete command is:
+
+```bash
+bunx skills add spikeHongg/china-stock-research-skills --list
+```
 ```
 
 Confirm that all 7 skills are visible.

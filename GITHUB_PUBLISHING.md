@@ -109,7 +109,7 @@
 - 在 GitHub 设置中补 description 和 topics
 - 创建 tag `v0.1.0`
 - 将上面的 release notes 粘贴到 GitHub Release 页面
-- 在新目录中测试远程安装：`bunx skills add <owner>/<repo> --list`
+- 在新目录中测试远程安装：`bunx skills add spikeHongg/china-stock-research-skills --list`
 - 如有需要，可先自建一个 roadmap issue 方便外部用户了解后续计划
 
 ### 建议首批 Pin 的 Issues
@@ -232,7 +232,7 @@ This version is a strong first public release because it already includes:
 - Add repository description and topics in GitHub settings
 - Create tag `v0.1.0`
 - Paste the release notes above into the GitHub release page
-- Test remote install from a fresh clone using `bunx skills add <owner>/<repo> --list`
+- Test remote install from a fresh clone using `bunx skills add spikeHongg/china-stock-research-skills --list`
 - Open one self-filed issue for roadmap visibility, if desired
 
 ### Suggested First Pinned Issues
