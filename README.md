@@ -7,9 +7,9 @@
 [![GitHub stars](https://img.shields.io/github/stars/spikeHongg/china-stock-research-skills?style=social)](https://github.com/spikeHongg/china-stock-research-skills)
 [![GitHub forks](https://img.shields.io/github/forks/spikeHongg/china-stock-research-skills?style=social)](https://github.com/spikeHongg/china-stock-research-skills/forks)
 
-把一句模糊的 `分析这只股票`，变成一套结构化、可引用、默认中文输出的中国股票研究工作流。
+把一句模糊的 `分析这只股票`，变成一套结构化、可引用、默认中文输出的中国股票 / A股研究工作流。
 
-这是一个面向中国股票研究的开源 agent skills 系统，默认服务于基于公开信息的中文研究流程。它适用于基本面、业务面、风险与估值分析，不适用于实时行情、自动交易或依赖私有数据库的工作流。
+这是一个面向中国股票研究的开源 agent skills 系统，尤其适合 A股 / A-share 语境下基于公开信息的中文研究流程。它适用于基本面、业务面、风险与估值分析，不适用于实时行情、自动交易或依赖私有数据库的工作流。
 
 ## 一句话看懂
 
@@ -26,7 +26,7 @@
 
 ## 这是什么
 
-- 一套面向中国股票研究的模块化 skills pack
+- 一套面向中国股票、尤其是 A股 / A-share 研究的模块化 skills pack
 - 一个总控母 skill，用来识别分析模式并编排研究流程
 - 六个核心模块，覆盖战略、业务质量、财务健康度、行业竞争、风险监测、估值
 - 一套共享标准，统一来源、引用、输出结构、分析模式与 overlays
@@ -122,6 +122,14 @@ bunx skills add . --list
 - `官方优先`：交易所、监管、公司正式披露优先于媒体摘要
 - `模式优先于行业`：先识别共性分析模式，再决定是否加载行业 overlay
 - `模块可组合`：母 skill 只编排，不替代各专业模块
+
+## 搜索关键词
+
+- 中国股票研究
+- A股研究
+- A-share research
+- China stock research
+- equity research skills
 
 ## 共享标准
 

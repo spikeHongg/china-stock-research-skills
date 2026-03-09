@@ -7,9 +7,9 @@
 [![GitHub stars](https://img.shields.io/github/stars/spikeHongg/china-stock-research-skills?style=social)](https://github.com/spikeHongg/china-stock-research-skills)
 [![GitHub forks](https://img.shields.io/github/forks/spikeHongg/china-stock-research-skills?style=social)](https://github.com/spikeHongg/china-stock-research-skills/forks)
 
-Turn a vague prompt like `analyze this stock` into a structured, source-backed, Chinese-first workflow for China stock research.
+Turn a vague prompt like `analyze this stock` into a structured, source-backed, Chinese-first workflow for China stock and A-share research.
 
-This is an open-source agent skills system for China stock research, designed around public-information workflows and Simplified Chinese outputs by default. It is suitable for fundamentals, business analysis, risk monitoring, and valuation framing, but not for real-time market data, automated trading, or proprietary database workflows.
+This is an open-source agent skills system for China stock research, especially natural for A-share workflows built on public information and Simplified Chinese outputs by default. It is suitable for fundamentals, business analysis, risk monitoring, and valuation framing, but not for real-time market data, automated trading, or proprietary database workflows.
 
 ## At A Glance
 
@@ -26,7 +26,7 @@ This is an open-source agent skills system for China stock research, designed ar
 
 ## What It Is
 
-- A modular skills pack for China stock research
+- A modular skills pack for China stock research, especially A-share workflows
 - A parent orchestrator that identifies analysis patterns and routes the workflow
 - Six core modules covering strategy, business quality, financial health, competition, monitoring, and valuation
 - Shared standards for sources, citations, output structure, analysis patterns, and overlays
@@ -122,6 +122,14 @@ Default full-flow module order:
 - `Official sources first` - disclosures and regulators outrank media summaries
 - `Patterns over sectors` - start from reusable analysis patterns, then add sector overlays if needed
 - `Composable modules` - the orchestrator routes work but does not replace specialist modules
+
+## Search Keywords
+
+- China stock research
+- A-share research
+- Chinese stock analysis
+- equity research skills
+- A股 research
 
 ## Shared Standards
 
