@@ -2,9 +2,22 @@
 
 [简体中文](README.md)
 
-Open-source agent skills for China stock research, designed around public-information workflows and Chinese-first outputs.
+Turn a vague prompt like `analyze this stock` into a structured, source-backed, Chinese-first workflow for China stock research.
 
-This repository turns a vague prompt like `analyze this stock` into a structured, source-backed workflow. It is designed for public-information equity research, not real-time market data, automated trading, or proprietary database workflows.
+This is an open-source agent skills system for China stock research, designed around public-information workflows and Simplified Chinese outputs by default. It is suitable for fundamentals, business analysis, risk monitoring, and valuation framing, but not for real-time market data, automated trading, or proprietary database workflows.
+
+## At A Glance
+
+- `Route first` - identify the research pattern before choosing modules
+- `Evidence first` - key facts must carry accessible source links
+- `Chinese first` - intermediate and final outputs default to Simplified Chinese
+
+## What You Get
+
+- One parent orchestrator: `china-stock-research-orchestrator`
+- Six composable core research modules
+- Shared citation standards, pattern overlays, and templates
+- A reusable framework built for public-information workflows
 
 ## What It Is
 
@@ -27,13 +40,13 @@ This repository turns a vague prompt like `analyze this stock` into a structured
 
 ## Quick Start
 
-Install the skills, then start with the orchestrator.
+Install the skills, then start with the orchestrator. If you only read three lines, this is enough.
 
 ```bash
 bunx skills add <owner>/<repo>
 ```
 
-Then use a prompt like:
+Then use this prompt directly:
 
 ```text
 Use the china-stock-research-orchestrator skill to analyze this China-listed company, identify the main analysis patterns, choose the required modules, and return a source-backed research framework. Default all intermediate and final outputs to Simplified Chinese.
