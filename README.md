@@ -11,6 +11,12 @@
 
 这是一个面向中国股票研究的开源 agent skills 系统，尤其适合 A股 / A-share 语境下基于公开信息的中文研究流程。它适用于基本面、业务面、风险与估值分析，不适用于实时行情、自动交易或依赖私有数据库的工作流。
 
+[安装](INSTALL.md) · [完整流程示例](examples/full-report-flow.md) · [Releases](https://github.com/spikeHongg/china-stock-research-skills/releases)
+
+![A 股研究报告结构：事实、解读与待验证问题；结构示意，不含真实公司数据](docs/preview.svg)
+
+从 [示例提示词](examples/quickstart-prompts.md) 开始，或查看 [完整研究流程](examples/full-report-flow.md)。
+
 ## 一句话看懂
 
 - `先路由`：先判断股票属于哪类研究问题，再决定该跑哪些模块

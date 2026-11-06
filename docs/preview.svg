@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="372" viewBox="0 0 960 372" role="img" aria-labelledby="title desc">
+<title id="title">China Stock Research Skills：结构预览</title><desc id="desc">基于公开信息，组织有来源引用的中文研究报告；研究流程：识别问题 → 选择模块 → 合并报告 → 来源附录</desc>
+<rect width="960" height="372" rx="20" fill="#f6f8fa"/>
+<rect x="24" y="28" width="4" height="58" rx="2" fill="#1a7f37"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,PingFang SC,Microsoft YaHei,sans-serif">
+<text x="44" y="52" font-size="24" font-weight="700" fill="#1f2328">China Stock Research Skills</text>
+<text x="44" y="80" font-size="15" fill="#59636e">基于公开信息，组织有来源引用的中文研究报告</text>
+<rect x="28" y="112" width="292" height="164" rx="12" fill="#ffffff" stroke="#d1d9e0"/>
+<text x="48" y="144" font-size="13" font-weight="600" fill="#1a7f37">01</text>
+<text x="48" y="174" font-size="20" font-weight="600" fill="#1f2328">事实</text>
+<text x="48" y="205" font-size="15" fill="#59636e">公开披露内容与来源引用</text>
+<text x="48" y="230" font-size="15" fill="#59636e">保留报告期和信息口径</text>
+<rect x="334" y="112" width="292" height="164" rx="12" fill="#ffffff" stroke="#d1d9e0"/>
+<text x="354" y="144" font-size="13" font-weight="600" fill="#1a7f37">02</text>
+<text x="354" y="174" font-size="20" font-weight="600" fill="#1f2328">解读</text>
+<text x="354" y="205" font-size="15" fill="#59636e">结合业务、财务与行业分析</text>
+<text x="354" y="230" font-size="15" fill="#59636e">将判断与事实分开呈现</text>
+<rect x="640" y="112" width="292" height="164" rx="12" fill="#ffffff" stroke="#d1d9e0"/>
+<text x="660" y="144" font-size="13" font-weight="600" fill="#1a7f37">03</text>
+<text x="660" y="174" font-size="20" font-weight="600" fill="#1f2328">待验证问题</text>
+<text x="660" y="205" font-size="15" fill="#59636e">明确尚未证实的信息</text>
+<text x="660" y="230" font-size="15" fill="#59636e">列出后续核查与监测事项</text>
+<text x="28" y="310" font-size="14" fill="#59636e">研究流程：识别问题 → 选择模块 → 合并报告 → 来源附录</text>
+<text x="28" y="340" font-size="12" fill="#59636e">结构示意 · 非实测截图</text></g></svg>
